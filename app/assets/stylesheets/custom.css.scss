@@ -28,7 +28,7 @@
     padding: 8px;
   }
   .navbar-link:focus, .navbar-link:hover {
-    background: #3071a9;
+    background: #3cc76a;
     color: #fff;
   }
   li a {
@@ -41,11 +41,15 @@
     color: #fff !important;
     margin-top: 5%;
   }
+
   .btn-danger:hover, .btn-danger:focus {
     background-color: darken(#d9534f,20%) !important;
   }
   .btn-primary:hover, .btn-primary:focus {
-    background-color: darken(#428bca,20%) !important;
+    background-color: darken(#3cc76a,20%) !important;
+  }
+  a {
+    color: #3cc76a;
   }
   a:hover, a:focus {
     background-color: rgba(0, 0, 0, 0);
@@ -54,6 +58,11 @@
 
 .nav-links {
   padding-top: 5px;
+}
+
+.btn-primary {
+background-color: #3cc76a;
+border-color: #3cc76a;
 }
 
 .btn-primary:visited, .btn-danger:visited {
@@ -119,3 +128,73 @@
 .no-right-padding {
   padding-right: 0 !important;
 }
+
+// ** Landing Page Import ** //
+
+#headerwrap {
+  /* background: url(../img/bg01.jpg) no-repeat center top; */
+  background-color: #ffffff;
+    margin-top: 20px;
+    padding-top: 50px;
+    background-attachment: relative;
+    background-position: center center;
+  min-height: 670px;
+  width: 100%;
+
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-size: 1000px 700px;
+}
+
+.heyyo {
+    margin-top: 15px;
+}
+.nav-h2 {
+    font-size: 130%;
+    font-weight: 500;
+    text-align: center;
+    color: #4a4b4f;
+    margin-top: 35px;
+}
+
+.centerBlock {
+    display: table;
+    margin: 30px auto;
+}
+
+.optin-text {
+    margin-bottom: 40px;
+    color: #4a4b4f;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    color: #3cc76a;
+}
+
+.img-padding {
+    margin: 0 auto;
+}
+
+.home-sign-up, .home-sign-up:hover {
+  width: 220px;
+  height: 50px;
+  padding-top: 13px;
+  background-color: #3cc76a;
+  border-color: #3cc76a;
+}
+
+// ** End of Landing Page Import ** //
