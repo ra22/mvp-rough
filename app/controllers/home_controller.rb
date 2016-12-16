@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  skip_before_action :authenticate_tenant!, :only => [ :index ]
+  skip_before_action :authenticate_tenant!, :only => [ :index, :pricing ]
 
   def index
     if current_user
@@ -12,5 +12,8 @@ class HomeController < ApplicationController
       @tenant = Tenant.current_tenant
       params[:tenant_id] = @tenant.id
     end
+  end
+
+  def pricing
   end
 end

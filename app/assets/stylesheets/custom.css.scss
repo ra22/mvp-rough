@@ -10,13 +10,14 @@
       padding: 5px!important;
   }
   a:hover, a:focus {
-    color: #000 !important;
+    color: #fff !important;
   }
 }
 
 .nav.navbar-right {
   padding-bottom: 10px;
   padding-top: 5px;
+  height: 65px;
 }
 
 .nav.navbar-nav {
@@ -46,6 +47,13 @@
   .btn-primary:hover, .btn-primary:focus {
     background-color: darken(#428bca,20%) !important;
   }
+  a:hover, a:focus {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.nav-links {
+  padding-top: 5px;
 }
 
 .btn-primary:visited, .btn-danger:visited {

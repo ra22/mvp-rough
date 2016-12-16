@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
    root :to => "home#index"
 
+  get 'home/pricing', to: 'home#pricing'
+
     
   # *MUST* come *BEFORE* devise's definitions (below)
   as :user do   
